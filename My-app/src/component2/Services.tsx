@@ -6,8 +6,8 @@ interface ServicesProps {
 function Services(props : ServicesProps) {
 return (
  <>
-    <p>{props.serviceType}</p>
-    <p>{props.expectedPrices}</p>
+    <p>service Type: {props.serviceType}</p>
+    <p>expected Prices: {props.expectedPrices}</p>
  </>
 
 )

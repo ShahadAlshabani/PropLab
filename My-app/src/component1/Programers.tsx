@@ -8,10 +8,10 @@ interface ProgramersProps {
 function Programers(props : ProgramersProps) {
   return (
     <>
-    <h1>{props.name}</h1>
-    <p>{props.languages}</p>
-    <p>{props.experiences}</p>
-    <p>{props.company}</p>
+    <h1>name: {props.name}</h1>
+    <p>languages: {props.languages}</p>
+    <p>experiences: {props.experiences}</p>
+    <p>company: {props.company}</p>
     </>
 
   )

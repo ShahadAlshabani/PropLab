@@ -12,9 +12,9 @@ interface CompaniesProps {
 function Companies(props : CompaniesProps) {
 return (
  <> 
-    <h1>{props.name}</h1>
-    <p>{props.numOfEmp}</p>
-     <p>{props.yearEstablished}</p>
+    <h1>name: {props.name}</h1>
+    <p>numOfEmp: {props.numOfEmp}</p>
+     <p>year Established: {props.yearEstablished}</p>
     <Services serviceType={props.serviceType} expectedPrices={props.expectedPrices}/>
 
  </>
